@@ -35,7 +35,8 @@ a {
 
 /* header.main-header*/
 nav a,
-footer a {
+footer a,
+footer li {
   position: relative;
 
   font-size: 20px;
@@ -46,7 +47,8 @@ nav a:not(last-child) {
 }
 
 nav a:after,
-footer a:after {
+footer a:after,
+footer li:after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -58,7 +60,8 @@ footer a:after {
 }
 
 nav a:hover:after,
-footer a:hover:after {
+footer a:hover:after,
+footer li:hover:after {
   width: 100%;
 }
 
@@ -184,6 +187,7 @@ footer {
 footer li {
   display: inline-block;
   margin: 0 10px;
+  color: var(--pink);
 }
 
 /* Media Query */
